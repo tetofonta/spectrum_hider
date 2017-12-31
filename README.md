@@ -32,7 +32,7 @@ There will be:
 * 30kHz
 * LSB: 29kHz
 
-![](image/data_spectrum_raw.png) ![](image/data_spectrum_high.png)
+![](images/data_spectrum_raw.png) ![](images/data_spectrum_filter.png)
 
 After first signal generation we can see data periods containing informations, we will analyze them after, but we can also see some frequency changing spikes due to the variation of the data.
 On the left you can see the same signal after has been processed by an high pass filter.
