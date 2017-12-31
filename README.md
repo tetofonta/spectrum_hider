@@ -41,3 +41,18 @@ On the left you can see the same signal after has been processed by an high pass
 
 Reading informations is almost easy:
 As you can see by the image above, the tracks in a single period are the relative bit of the word.
+
+## What the script does
+- [x] Data encoding
+- [x] Data filtering
+- [x] Arrangement
+
+## What I already have to do
+- [ ] Data encrypting
+- [ ] Data compression
+- [ ] Mix audio and data channels
+    - [ ] Store stereo channel data
+- [ ] Decoding
+
+## GOAL
+Hide small information in audio files like keys or password.
