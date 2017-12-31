@@ -36,3 +36,8 @@ There will be:
 
 After first signal generation we can see data periods containing informations, we will analyze them after, but we can also see some frequency changing spikes due to the variation of the data.
 On the left you can see the same signal after has been processed by an high pass filter.
+
+![](images/decoding.png)
+
+Reading informations is almost easy:
+As you can see by the image above, the tracks in a single period are the relative bit of the word.
