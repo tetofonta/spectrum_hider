@@ -16,4 +16,23 @@ So with 44100Hz we can describe only signals from 0Hz to 22050Hz, leaving only a
 So, we can store more data in a single interval by incrementing audio sampling rate.
 
 ![](images/44100_spectrum.png)
+
 As seen from image above, in a normal 44100Hz sampled file there are left only 2kHz of ultrasonic bandwith where we can only write 0/1 data at 22kHz and 21kHz frequencies.
+
+![](images/88200_spectrum.png)
+
+As incremented the sampling rate, we have now available a bigger bandwith for our data that can't be heared by user.
+
+Than we need to transform our data into a sum of sinweaves.
+Let's define that every bit in a word has a frequency inside our spectrogram.
+There will be:
+* MSB: 44kHz
+* 43kHz
+* ...
+* 30kHz
+* LSB: 29kHz
+
+![](image/data_spectrum_raw.png) ![](image/data_spectrum_high.png)
+
+After first signal generation we can see data periods containing informations, we will analyze them after, but we can also see some frequency changing spikes due to the variation of the data.
+On the left you can see the same signal after has been processed by an high pass filter.
