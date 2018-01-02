@@ -46,6 +46,7 @@ As you can see by the image above, the tracks in a single period are the relativ
 - [x] Data encoding
 - [x] Data filtering
 - [x] Arrangement
+- [x] Encode file
 
 ## What I already have to do
 - [ ] Data encrypting
